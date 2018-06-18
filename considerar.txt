@@ -1,0 +1,59 @@
+Informacion de cosa a tener en consideracion
+https://www.youtube.com/watch?v=Cr8jWdMFryk
+
+Herramienta de Honeypot
+PentBox
+https://www.youtube.com/watch?v=zOXd35GbDKg
+https://github.com/whitehatpanda/pentbox-1.8
+http://www.hackingarticles.in/pentbox-tutorial-a-penetration-testing-tool/
+Honeyd
+http://www.honeyd.org/
+Modern honey network
+https://threatstream.github.io/mhn/
+Cowrie
+https://github.com/micheloosterhof/cowrie
+https://hub.docker.com/r/cowrie/cowrie/
+https://hub.docker.com/r/vimagick/cowrie/
+https://hub.docker.com/r/wonderfall/cowrie/
+Dionea
+https://github.com/DinoTools/dionaea
+https://dionaea.readthedocs.io/en/latest/
+iPew Atack Map
+https://github.com/hrbrmstr/pewpew
+http://datadrivensecurity.info/blog/posts/2014/Oct/roll-your-own-ip-attack-graphs/
+Kipppo
+https://github.com/desaster/kippo
+Glutton
+https://github.com/mushorg/glutton
+honeeepi
+https://redmine.honeynet.org/projects/honeeepi/wiki
+
+Plus++
+https://www.youtube.com/watch?v=YAzaITDt_Ac
+
+Revisar, lista de Informacion
+https://github.com/paralax/awesome-honeypots
+
+HoneyPot Profesor - telnet-iot-honeypot
+https://github.com/Phype/telnet-iot-honeypot
+
+
+
+
+Revisar si la IP es un Honeypot
+https://honeyscore.shodan.io/
+
+Revisar tecnicas de Busquea para Identificra un HoneyPot
+https://www.rapid7.com/db/modules/auxiliary/scanner/ssh/detect_kippo
+https://www.youtube.com/watch?v=708V8mJfslw
+
+------
+Trasnformar un archivo nmap_scan_xml a html con xsltproc [nombrexml] -o nombre.hmlt
+
+Escanear un dispositivo a IoT a full
+https://github.com/shodan-labs/iotdb
+
+freevhess.org
+telnet freechess.org 5000
+
+https://github.com/mrschyte/dockerpot
