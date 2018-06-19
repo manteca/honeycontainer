@@ -6,10 +6,8 @@ PentBox
 https://www.youtube.com/watch?v=zOXd35GbDKg
 https://github.com/whitehatpanda/pentbox-1.8
 http://www.hackingarticles.in/pentbox-tutorial-a-penetration-testing-tool/
-Honeyd
-http://www.honeyd.org/
-Modern honey network
-https://threatstream.github.io/mhn/
+
+
 Cowrie
 https://github.com/micheloosterhof/cowrie
 https://hub.docker.com/r/cowrie/cowrie/
@@ -25,8 +23,7 @@ Kipppo
 https://github.com/desaster/kippo
 Glutton
 https://github.com/mushorg/glutton
-honeeepi
-https://redmine.honeynet.org/projects/honeeepi/wiki
+
 
 Plus++
 https://www.youtube.com/watch?v=YAzaITDt_Ac
@@ -43,7 +40,7 @@ https://github.com/Phype/telnet-iot-honeypot
 Revisar si la IP es un Honeypot
 https://honeyscore.shodan.io/
 
-Revisar tecnicas de Busquea para Identificra un HoneyPot
+Revisar tecnicas de Busquea para Identificar un HoneyPot
 https://www.rapid7.com/db/modules/auxiliary/scanner/ssh/detect_kippo
 https://www.youtube.com/watch?v=708V8mJfslw
 
