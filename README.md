@@ -56,7 +56,7 @@ Glutton (SSH or as proxy to log)
 https://github.com/mushorg/glutton
 
 ## Networking
-Se procedera a que cada container pertenezca a la red o posiblemnte, que cada uno tenga si IPV6. (aun por revisar)
+Se procedera a que cada container pertenezca a la red o posiblemente, que cada uno tenga si IPV6. (aun por revisar)
 https://docs.docker.com/network/#network-drivers
 
 
