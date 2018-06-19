@@ -1,0 +1,56 @@
+version: '3'
+services:
+  honeypot_service_1:
+      image: image_honeypot
+      deploy:
+        restart_policy:
+          condition: any
+      environment:
+        VARIABLES: VARIABLES_VALUE
+      networks:
+        - main-network
+      ports:
+        - "23:23"
+    entrypoint: command.sh parameter1 parameter2
+
+    honeypot_service_1:
+        image: image_honeypot
+        deploy:
+          restart_policy:
+            condition: any
+        environment:
+          VARIABLES: VARIABLES_VALUE
+        networks:
+          - main-network
+        ports:
+          - "22:22"
+      entrypoint: command.sh parameter1 parameter2
+
+      honeypot_service_3:
+          image: image_honeypot
+          deploy:
+            restart_policy:
+              condition: any
+          environment:
+            VARIABLES: VARIABLES_VALUE
+          networks:
+            - main-network
+          ports:
+            - "80:80"
+        entrypoint: command.sh parameter1 parameter2
+
+      honeypot_service_4:
+          image: image_honeypot
+          deploy:
+            restart_policy:
+              condition: any
+          environment:
+            VARIABLES: VARIABLES_VALUE
+          networks:
+            - main-network
+          ports:
+            - "443:443"
+        entrypoint: command.sh parameter1 parameter2
+
+networks:
+  main-network:
