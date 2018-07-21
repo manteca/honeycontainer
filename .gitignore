@@ -103,3 +103,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 revisar_primero
+cowrie/etc/ssh_host_dsa_key
+cowrie/etc/ssh_host_dsa_key.pub
+cowrie/etc/ssh_host_rsa_key
+cowrie/etc/ssh_host_rsa_key.pub

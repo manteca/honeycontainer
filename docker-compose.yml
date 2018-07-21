@@ -8,8 +8,8 @@ services:
         - "2222:2222"
         - "2223:2223"
         volumes:
-            - "./cowrie/etc:/cowrie/cowrie-git/etc"
             - "./cowrie/var:/cowrie/cowrie-git/var"
+            - "./cowrie/etc:/cowrie/cowrie-git/etc"
         networks:
             honey_net:
                 ipv4_address: 192.168.0.5
