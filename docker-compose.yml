@@ -24,10 +24,10 @@ services:
             honey_net:
                 ipv4_address: 192.168.0.10
 
-#Set Agent
-# Set an Agent on app, get toke
-# dh_run --dh-type honeypot --agent --master-addr http://<IP_Master>:8000 --agent-token <token_generate>
-
+# Instructions for setting an Agent:
+# 1) Set an Agent on app and get the toke: ip on the dashboar has to bo only the IP
+# 2) docker run -it -p 80:80 demohunter \
+#       dh_run --dh-type honeypot --agent --master-addr http://<IP_Master>:8000 --agent-token <token_generate>
 
 networks:
     honey_net:
