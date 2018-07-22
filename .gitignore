@@ -106,3 +106,5 @@ cowrie/etc/ssh_host_dsa_key.pub
 cowrie/etc/ssh_host_rsa_key
 cowrie/etc/ssh_host_rsa_key.pub
 cowrie.pid
+cowrie.log.2018-07-21
+bibliografia
