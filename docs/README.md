@@ -5,8 +5,7 @@ Profesor: Jose Rodríguez
 
 Proyecto de implementación de Honeypots de forma simple, tanto para investigadores como individuos que desean agregar una capas mas de seguridad, sin la necesidad de tener conocimiientos específicos técnicos de un especialista de seguridad de la información o un técnico de sistemas.
 
-## Estado del Arte
-
+## Estado del Arte
 Honeypot es un programa o sistema, diseñado especialmente para capturar los acceso no deseados. La funcion de estos programas o sistemas, es que sean explotados, con el fín de capturar los archivos y las acciones que un bot, malware o persona efectuen.
 
 Estos se pueden clasificar en 2 grupos con criterios diferentes:
