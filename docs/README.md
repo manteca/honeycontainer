@@ -1,14 +1,9 @@
-
-
-
-
- # Implementación de Honeypot para Investigadores y Usuarios
+# Implementación de Honeypot para Investigadores y Usuarios
 
 Alumno: Felipe Villalobos
 Profesor: Jose Rodríguez
 
 Proyecto de implementación de Honeypots de forma simple, tanto para investigadores como individuos que desean agregar una capas mas de seguridad, sin la necesidad de tener conocimiientos específicos técnicos de un especialista de seguridad de la información o un técnico de sistemas.
-
 
 ## Estado del Arte
 
