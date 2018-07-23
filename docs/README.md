@@ -29,7 +29,7 @@ Si bien tiene una lista de requerimientos alta, la documentación indica que se 
 Una forma mas simple, es instalarlo mediante docker:
 ``docker run -it -v ~/logs:/logs honeynet/thug``
 
-#### Cowrie
+#### Cowrie
 Este honeypot es uno de los de preferidos. Es utilizados tanto por investigaodres como usuarios que desean aumentar su nivel de seguridad en su red.
 
 Su principal foco es la implementación de un honeypot con protocolos SSH y Telnet, pero ahora ya soporta otros comandos como SCP, sleep y users,  entre varios más. También tiene soporte básico para el protocolo SFTP.
@@ -38,7 +38,7 @@ Incluye ejemplos de configuración para conectar los logs a Logstah y Kibana.
 
 Se puede implementar en forma manual o mendiante docker: *https://github.com/cowrie/docker-cowrie*. Este tiene una configuración realizada con docker-compose que permite la implementación del servicio con un solo comando: ``docker-compose up``.
 
-#### Dionaea
+#### Dionaea
 Es un honeypot que fue pensado en ser un predecesor del honeypot nepenthes(Planta Carnivora). La lista de protocolos que soporta es extensa *blackhole, epmap, ftp, http, memcache ,mirror, mqtt, mssql, mysql, pptp, sip, smb, tftp, upnp*. Esta desarrollado en base python y una de las características que lo destaca es que ahora soporta IPV6.
 
 La funcionalidad de este honeypot es la de atrapar malware para poder analisarlo posteriormente, tal cual lo hacía nepenthes.
@@ -53,13 +53,13 @@ Algunas de sus funciones son:
 
 Podriamos decir que es uno de los honeypots mas completos en cuanto al tipo de protocolos que puede levantar.
 
-#### Pewpew
+#### Pewpew
 Pewpew, si bien no es un honeypot en si, es una herramienta visual que permite ver los ataque en tiempo real en un mapa. Tal cual lo hace *FireEye Cyber Threat map*
 
-#### Kippo
+#### Kippo
 Es un Honeypot espesífico para el servicio SSH. Permite hacer un log de ataque de fuerza bruta y revisar las interacciones completa de la shell del atacante.
 
-#### DemoHunter
+#### demoHunter
 Es un honeypot de interacción baja, que tiene la posibildiad de desplegar un maestro y los agentes que se deseen. Dentro de los protocolos que puede simular son: http, telnet y VNC.
 Su desarrollo esta realizado completamente en python.
 
