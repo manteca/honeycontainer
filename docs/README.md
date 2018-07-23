@@ -21,9 +21,8 @@ El segundo grupo, clasifíca los honeypots respecto a su diseño y funcionalidad
 * Interacción Alta: Por lo general son sitemas donde el atacante puede usar multiples recursos y el servicio. Estos no son emulados.
 * Interacción Baja: Son sistemas o servicios emulados, donde el atacante tiene una limitación de lo que puede hacer. Por lo general, estos son utilizados para capturar malware provenientes de bots.
 
-
-### HoneyPots
-#### Thug
+### HonetPots
+#### Thug
 Este es un honeypot de interacción baja, con un tipo híbrido de análisis, estático y dinámico. Permite analizar los shellcode descargados en páginas web mediante javascript.
 
 Si bien tiene una lista de requerimientos alta, la documentación indica que se puede implementar con un commando ``pip install``
