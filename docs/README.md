@@ -56,7 +56,7 @@ Algunas de sus funciones son:
 Podriamos decir que es uno de los honeypots mas completos en cuanto al tipo de protocolos que puede levantar.
 
 #### Pewpew
-Pewpew, si bien no es un honeypot en si, es una herramienta visual que permite ver los ataque en tiempo real en un mapa. Tal cual lo hace *FireEye Cyber Threat map}
+Pewpew, si bien no es un honeypot en si, es una herramienta visual que permite ver los ataque en tiempo real en un mapa. Tal cual lo hace *FireEye Cyber Threat map*
 
 #### Kippo
 Es un Honeypot espesífico para el servicio SSH. Permite hacer un log de ataque de fuerza bruta y revisar las interacciones completa de la shell del atacante.
@@ -84,7 +84,7 @@ La curiosidad de querer entender como funcionan las cosas, me ha llevado a inves
 * Si hacemos ejercicio
 * Que cosas nos gustan
 
-Todo esto y muchos otros datos son capturados en la mayoría por dispositivos IoT y transmitidos de alguna forma a la "*nube}" con que la mayoría de los usuarios se percaten de esto o entiendan que es lo que esto significa. Es por eso que la EU saco la regulación GDPR, pero eso es otra historia.
+Todo esto y muchos otros datos son capturados en la mayoría por dispositivos IoT y transmitidos de alguna forma a la "*nube*" con que la mayoría de los usuarios se percaten de esto o entiendan que es lo que esto significa. Es por eso que la EU saco la regulación GDPR, pero eso es otra historia.
 
 Si bien tengo el conocimiento de entender como se conectan, la curiosidad de saber cual es el volumen de información que es transmitida, que tipo de información intercambian, entender que pueden ser usados no solo para felicitar nuestras vidas, sino que para obtener información confidencia de los usuarios sin que estos lo sepan. Todo esto, que a algunas personas las lleva un poco a la paranoia, es lo que a mi me llama a investigar y entender. Mi naturaleza no me deja permitir que algo me controle, solo porque no lo entiendo.
 
