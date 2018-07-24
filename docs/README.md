@@ -113,7 +113,7 @@ Con estos 2 honeypot, se pretende revisar nuestro concepto de despliegue simple,
 * Que sea desarrollado por pocos usuarios
 * Que sea desarrollado por muchos usuarios
 
-## Tesis
+## Tesis
 ### Desarrollo de Impletación de Honeypot
 
 Se consideran los siguientes equipos y servicios para desplegar y probar la solución antes mencionada:
@@ -128,8 +128,8 @@ Se consideran los siguientes equipos y servicios para desplegar y probar la solu
     * instancias en DigitalOcean con SO Debian
 
 
-![Raspberry Pi Cluster](/img/raspberrypi1.jpg)
-![Raspberry Pi Cluster](/img/raspberrypi2.jpg)
+![Raspberry Pi Cluster](img/raspberrypi1.jpg)
+![Raspberry Pi Cluster](img/raspberrypi2.jpg)
 
 
 La configuración básisa de cada una de las plataformas seguirá los sigeuientes pasos.
@@ -150,8 +150,7 @@ Las llaves necesitan tener los siguientes permisos:
 * Evitar login de ssh por root y solo por por las llaves generada
 
 
-#### Implementación de Sowftware
-
+#### Implementación de Software
 * Instalación de Docker en cada unos de los host
 * Instalar Docker: Segun instrucciones de su sitio \cite{dockerc:linux}
 * Instala Docker-compose: pip install docker-compose
@@ -165,7 +164,7 @@ Con la implementación de sysdig se pretende poder controlar e identificar que e
 
 En esta sección no se pretende hacer un manual de uso de docker, ya que eso tomaría una trabajo completo y no es el foco de lo analizado ahora, sino que es solo una herramienta para cumplir nuestro objetivo, de todas maneras, se deja en la bibliografía todos los manuales utilizados y consultados ara el desarrollo de este proyecto.
 
-#### Configuracion de los componentes de Docker
+#### Configuración de los componentes de Docker
 Con el fin de lograr un despliegue fácil y tener control de que es lo que se instala en nuestros sistemas, es necesario crear nuestras propias imágenes de forma local.
 Para el caso de Cowrie, ya existía un base, pero se tuvo que modificar para que funcionar adecuadamente.
 Esta se puede encontrar en el repositorio de github *https://github.com/manteca/honeycontainer/blob/master/cowrie/Dockerfile*
